@@ -1,0 +1,203 @@
+
+
+body{
+
+    display:block;
+    height: 230vh;
+    background: linear-gradient(135deg,#ffff 1%, #0f6f64 100%);
+
+}
+.heading{
+    margin: 0.7em auto;
+    text-align: center;
+    align-items: center;
+    font-size: 0.5rem;
+    font-family: "gills sans nova", sans-serif;
+    
+} 
+
+form{
+    align-items: center;
+    width:100vw;
+    max-width: 500px;
+    min-width:300px;
+    margin:15px auto;
+    background-color: #ffff;
+    border-radius: 8px;
+    padding: 50px auto;
+    margin-bottom:8px;
+}
+
+fieldset{
+    border: none;
+    margin-top: 10px;
+}
+
+.staff-details{
+    display:grid;
+    gap:20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.branch-details{
+    display:grid;
+    gap:20px;
+    padding-left: 20px;
+    margin-top: 10px;}
+
+.cash,.card,.uber,.Deliveroo,.Vitamojo,.JustEats{
+    display:grid;
+    gap:20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.Branch_name{
+    margin-top: 2px;
+    position:relative;
+    height: 40px;
+    width: 80%;
+    border-radius: 6px;
+    outline:none;
+    border: 1px solid #348b81;
+    position: relative;
+    padding: 0 15px;
+}
+
+
+form .staff-details input{
+    position:relative;
+    height: 40px;
+    width:80%;
+    margin-top:8px;
+    border-radius: 6px;
+    padding: 0 15px;
+    outline:none;
+    border: 1px solid #348b81
+}
+.cash input,.card input,.uber input,.Deliveroo input,.Vitamojo input,.JustEats input{
+    position:relative;
+    height: 40px;
+    width:80%;
+    margin-top:8px;
+    border-radius: 6px;
+    padding: 0 15px;
+    outline:none;
+    border: 1px solid #348b81
+   
+
+}
+
+h3{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.submit{
+width:100%;
+height:40px;
+padding:20px 10px;
+align-items: center;
+text-align: center;
+cursor:pointer;
+background-color: rgb(100, 150, 96);
+font-size: 1em;
+font-family:"gills sans nova",sans-serif;
+border-radius: 11px;
+border-color: rgb(100, 150, 96);
+position: relative;
+outline:none;
+margin-top: 20px;
+}
+.submit:hover{
+background-color: rgb(156, 207, 151);
+transition: all ease 1.00s;
+}
+
+input[type="submit"]{
+    text-align: center;
+    line-height: 5px;
+}
+
+
+.tasty-logo{
+    width:75px;
+    height: auto;
+    margin: 1em 0 0 0.4em;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; /* Rounded corners */
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+@media screen and (max-width: 400px){
+
+    form{
+        flex-wrap: wrap;
+    }
+
+    .tasty-logo{
+        width:75px;
+        height: auto;
+        margin: 0.5em 0 0 0.75em;}
+    
+    body{
+        display:block;
+    height: 165vh;
+    background: linear-gradient(135deg,#ffff 1%, #0f6f64 100%); }
+}

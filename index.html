@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASTY REMUNERATION FORM</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="tasty-logo">
+        <a href="/index.html" target="_blank">
+            <img src="images/Tasty__Full_Logo_-_Dark_Green_3e7328f3-7ebd-4200-b339-f1d711468b2f_200x.avif" class="tasty-logo" alt="Tasty-logo">
+        </a> 
+    </div>
+    <div class="heading">
+        <h1>TASTY RENUMERATION FORM</h1>
+    </div>
+    
+    <form id="TastyCashForm" action="https://script.google.com/macros/s/AKfycbwBiy8pF3ef2a5sKiSxcoiatZb1mZH22_EbUhAjsn4W_VBC8D8YsYwz-U5h6nl_SEnTyQ/exec" method="post">
+        <fieldset>
+            <h3>Staff Details</h3>
+            <div class="staff-details">
+                <label for="First_name">ENTER YOUR FIRST NAME: <input name="First_name"id="First_name" type="text" required placeholder="First Name"/></label>
+                <label for="Last_name">ENTER YOUR LAST NAME: <input name="Last_name"id="Last_name" type="text" required placeholder="Last Name"/></label>
+                <label for="Date">SELECT DATE: <input name="Date" id="Date" type="date" required/></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <h3>Select Branch</h3>
+            <div class="branch-details">
+              <select id="Branch_name" name="Branch_name" class="Branch_name">
+                <option value="Barking">Barking</option>
+                <option value="Ilford">Ilford</option>
+                <option value="Woolwich1">Woolwich1</option>
+                <option value="Woolwich2">Woolwich2</option>
+                <option value="Belvedere">Belvedere</option>
+                <option value="Dartford">Dartford</option>
+                <option value="Croydon">Croydon</option>
+                <option value=" Gravesend">Gravesend</option>
+                <option value="Stratford">Stratford</option>
+                <option value="Sittingborne">Sittingborne</option>  
+              </select>
+            </div> 
+        </fieldset>
+        <fieldset>
+          <h3>Cash Amount</h3>
+          <div class="cash">
+            <label for="Cash">ENTER CASH AMOUNT:<input name="Cash" id="Cash" type="number" required placeholder="0.00"></label> 
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3>Card Amount</h3>
+          <div class="card">
+            <label for="Card">ENTER AMOUNT:<input name="Card" id="Card" type="number" required placeholder="0.00"></label> 
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3>Uber Amount</h3>
+          <div class="uber">
+            <label for="Uber">ENTER AMOUNT:<input name="Uber" id="Uber" type="number" required placeholder="0.00"></label> 
+          </div>
+        </fieldset>
+        <fieldset>
+          <h3>Deliveroo Amount</h3>
+          <div class="Deliveroo">
+            <label for="Deliveroo">ENTER AMOUNT:<input name="Deliveroo" id="Deliveroo" type="number" required placeholder="0.00"></label> 
+          </div>
+        </fieldset>
+        <fieldset>
+        <h3>JustEats Amount</h3>
+          <div class="JustEats">
+            <label for="JustEats">ENTER AMOUNT:<input name="JustEats" id="JustEats" type="number" required placeholder="0.00"></label> 
+          </div>
+        </fieldset>
+        <fieldset>
+        <h3>Vitamojo Amount</h3>
+          <div class="Vitamojo">
+            <label for="Vitamojo">ENTER AMOUNT:<input name="Vitamojo" id="Vitamojo" type="number" required placeholder="0.00"></label> 
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <input class="submit" type="submit" id="submit-button" name="submit" value="SUBMIT">     
+        </fieldset>
+         
+    </form>
+  <!-- Modal HTML -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modalMessage"></p>
+    </div>
+  </div>
+<script src="index.js">
+</script>
+</body>
+</html>
