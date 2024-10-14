@@ -167,10 +167,10 @@ input[type="submit"]{
 
 /* Button Styles */
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: rgb(100, 150, 96)
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
