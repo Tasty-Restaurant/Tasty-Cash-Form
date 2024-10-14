@@ -3,7 +3,7 @@
 body{
 
     display:block;
-    height: 130vh;
+    height: 180vh;
     background: linear-gradient(135deg,#ffff 1%, #0f6f64 100%);
 
 }
@@ -45,7 +45,7 @@ fieldset{
     padding-left: 20px;
     margin-top: 10px;}
 
-.cash,.card,.uber,.Deliveroo,.Vitamojo,.JustEats{
+.cash,.card,.uber,.Deliveroo,.Vitamojo,.JustEats,.Total{
     display:grid;
     gap:20px;
     padding-left: 20px;
@@ -75,7 +75,7 @@ form .staff-details input{
     outline:none;
     border: 1px solid #348b81
 }
-.cash input,.card input,.uber input,.Deliveroo input,.Vitamojo input,.JustEats input{
+.cash input,.card input,.uber input,.Deliveroo input,.Vitamojo input,.JustEats input,.Total input{
     position:relative;
     height: 40px;
     width:80%;
