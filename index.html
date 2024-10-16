@@ -19,6 +19,24 @@
             document.getElementById("Total").value = total.toFixed(2);
              }
     </script>
+    <script>
+        function setTodayDate() {
+            // Get today's date
+            let today = new Date();
+            let dd = String(today.getDate()).padStart(2, '0');
+            let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+            let yyyy = today.getFullYear();
+            
+            // Format the date in YYYY-MM-DD for the date input
+            let formattedToday = yyyy + '-' + mm + '-' + dd;
+
+            // Set the value of the date input to today's date
+            document.getElementById("Date").value = formattedToday;
+        }
+
+        // Set the date once the page has loaded
+        window.onload = setTodayDate;
+    </script>
 </head>
 <body>
    <!-- <div class="tasty-logo">
