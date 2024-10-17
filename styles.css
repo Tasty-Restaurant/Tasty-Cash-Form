@@ -184,7 +184,7 @@ button:hover {
     background-color: #45a049; /* Darker green */
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width:480px){
 
     form{
         flex-wrap: wrap;
