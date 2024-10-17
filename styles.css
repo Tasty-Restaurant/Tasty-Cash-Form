@@ -188,6 +188,7 @@ button:hover {
 
     form{
         flex-wrap: wrap;
+        height:100vw;
     }
 
     .tasty-logo{
